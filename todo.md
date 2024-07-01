@@ -1,0 +1,2 @@
+-   Dark Mode - later
+-   Picture with logo - done
