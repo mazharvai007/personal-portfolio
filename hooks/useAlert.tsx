@@ -8,9 +8,11 @@ const useAlert = () => {
 	});
 
 	const showAlert = ({
+		show,
 		text,
 		type = 'danger',
 	}: {
+		show: boolean;
 		text: string;
 		type: string;
 	}) => {
