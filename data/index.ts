@@ -5,6 +5,14 @@ export const navItems = [
 	{ id: 4, name: 'Contact', link: '/contact' },
 ];
 
+export const myWords = [
+	'React.js Developer',
+	'Next.js Developer',
+	'Joomla Developer',
+	'WordPress Developer',
+	'Technical Support Engineer',
+];
+
 export const gridItems = [
 	// {
 	// 	id: 1,
