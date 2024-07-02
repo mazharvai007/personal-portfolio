@@ -21,7 +21,7 @@ const CtaContact = () => {
 					otherClasses="gap-2"
 					loadingTitle=""
 					type="submit"
-					loading={true}
+					loading={false}
 				/>
 			</Link>
 		</div>
