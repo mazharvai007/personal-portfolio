@@ -18,7 +18,7 @@ const TextInput = ({
 	name: string;
 	value: string;
 	placeholder: string;
-	onChange?: (() => void) | undefined;
+	onChange: any;
 	required: boolean;
 }) => {
 	return (

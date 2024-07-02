@@ -19,6 +19,9 @@ const CtaContact = () => {
 					icon={<FaLocationArrow />}
 					position="right"
 					otherClasses="gap-2"
+					loadingTitle=""
+					type="submit"
+					loading={true}
 				/>
 			</Link>
 		</div>

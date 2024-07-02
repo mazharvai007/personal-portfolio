@@ -7,17 +7,15 @@ const MagicButton = ({
 	otherClasses,
 	loading,
 	loadingTitle,
-	href,
 }: {
-	title: string;
-	icon: React.ReactNode;
-	position: string;
+	title?: string;
+	icon?: React.ReactNode;
+	position?: string;
 	type?: 'submit' | 'reset' | 'button' | undefined;
-	handleClick?: () => void;
+	handleClick?: any;
 	otherClasses?: string;
-	loading: boolean;
-	loadingTitle: string;
-	href: string;
+	loading?: boolean;
+	loadingTitle?: string;
 }) => {
 	return (
 		<>
@@ -31,7 +29,7 @@ const MagicButton = ({
 					className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl ${otherClasses}`}
 				>
 					{position === 'left' && icon}
-					{loading ? loadingTitle : title}
+					{loading && loading ? loadingTitle : title}
 					{position === 'right' && icon}
 				</span>
 			</button>

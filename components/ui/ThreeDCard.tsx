@@ -15,12 +15,12 @@ export function ThreeDCard({
 	link,
 	sourceLink,
 }: {
-	title: string;
-	description: string;
-	img: string;
-	iconLists: string[];
-	link: string;
-	sourceLink: string;
+	title?: string;
+	description?: string;
+	img?: string | any;
+	iconLists?: any;
+	link?: string | any;
+	sourceLink?: string | any;
 }) {
 	return (
 		<CardContainer className="inter-var">

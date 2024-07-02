@@ -15,10 +15,10 @@ const TextArea = ({
 	label: string | undefined;
 	className: string | undefined;
 	name: string | undefined;
-	rows?: number | undefined;
+	rows?: any;
 	value: string | undefined;
 	placeholder: string | undefined;
-	onChange?: (() => void) | undefined;
+	onChange?: any;
 	required: boolean;
 }) => {
 	return (
