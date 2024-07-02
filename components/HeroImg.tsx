@@ -4,7 +4,7 @@ import { Meteors } from './ui/Meteors';
 const HeroImg = () => {
 	return (
 		<>
-			<div className=" w-full relative max-w-md">
+			<div className=" w-full relative max-w-sm">
 				<div className="absolute inset-0 h-full w-full bg-gradient-to-r from-black-200 to-black-100 transform scale-[0.80] bg-violet-500 rounded-full blur-3xl" />
 				<div className="relative shadow-xl px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
 					{/* <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
