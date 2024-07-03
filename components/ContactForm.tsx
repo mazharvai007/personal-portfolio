@@ -109,7 +109,7 @@ const ContactForm = () => {
 							name="name"
 							className=""
 							value={form.name}
-							placeholder="Mazharul Islam"
+							placeholder="Enter your name"
 							onChange={handleChange}
 							required
 						/>
@@ -119,7 +119,7 @@ const ContactForm = () => {
 							name="email"
 							className=""
 							value={form.email}
-							placeholder="mazharvai007@gmail.com"
+							placeholder="Enter your email"
 							onChange={handleChange}
 							required
 						/>
@@ -129,7 +129,7 @@ const ContactForm = () => {
 							name="subject"
 							className=""
 							value={form.subject}
-							placeholder="Enter Your Subject"
+							placeholder="Enter your subject"
 							onChange={handleChange}
 							required
 						/>
